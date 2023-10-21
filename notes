@@ -1,0 +1,16 @@
+API: http://localhost:9092/api/auth/signup
+Body:
+{
+    "username":"Bharat12",
+    "email":"bharat12@gmail.com",
+    "password":"1234579",
+    "role":["admin","mod","user"]
+
+}
+-----------------------
+API: http://localhost:9092/api/auth/signin
+{
+    "username": "Bharat12",
+    "password": "1234579"
+}
+--------------------------------------
